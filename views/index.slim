@@ -1,2 +1,38 @@
-.draggable
-  p この要素はドラッグできるはずです。
+
+.table-A
+  h1 テーブル1
+  table
+    thead
+      tr
+        th id
+        th name
+        th hoge
+        th fuga
+        th hogehoge
+    tbody.sortable
+      - (1..10).each do |i|
+        tr
+          td = i
+          td fukuo
+          td hoge
+          td fuga
+          td hogehoge
+
+.table-B
+  h1 テーブル2
+  table
+    thead
+      tr
+        th id
+        th name
+        th hoge
+        th fuga
+        th hogehoge
+    tbody.sortable
+      - (1..10).each do |i|
+        tr
+          td = i
+          td fukuo
+          td hoge
+          td fuga
+          td hogehoge

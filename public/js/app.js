@@ -1,3 +1,3 @@
 $(function(){
-  $('.draggable').draggable();
+  $('.sortable').sortable({ connectWith: '.sortable' });
 });
